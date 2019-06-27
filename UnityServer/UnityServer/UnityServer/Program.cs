@@ -14,7 +14,7 @@ namespace UnityServer
         {
             try
             {
-                TestEchoServer test = new TestEchoServer(clients: 100000,message:40,size: 1,seconds: 10);
+                TestEchoServer test = new TestEchoServer(clients: 500,message:40,size: 1,seconds: 10);
                 test.Benchmacrk();
             }
             catch (Exception e)
